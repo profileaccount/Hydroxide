@@ -33,9 +33,7 @@ end, function(err)
 		message = "Report this error in Hydroxide's server:\n\n" .. err
 	end
 
-	MessageBox.Show("An error has occurred", message, MessageType.OK, function()
-		Interface:Destroy() 
-	end)
+	MessageBox.Show("An error has occurred", message, MessageType.OK, function() end)
 end)
 
 local constants = {

@@ -1,3 +1,4 @@
+--whys this so fucking bugged
 local ScriptScanner = {}
 local LocalScript = import("objects/LocalScript")
 
